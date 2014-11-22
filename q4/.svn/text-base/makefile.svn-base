@@ -1,0 +1,5 @@
+all:
+	matlab -nodisplay -nosplash -nodesktop -r "run('wrapper.m');"
+
+clean:
+	\rm -f *.png

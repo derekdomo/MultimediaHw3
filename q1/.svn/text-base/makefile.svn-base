@@ -1,0 +1,8 @@
+all: compute 
+
+compute: 
+	@echo "please print out sigular values for mystery dataset, you can use matlab, octave or other languages as long as it can run on andrew linux machine"
+
+clean:
+
+

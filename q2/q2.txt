@@ -1,0 +1,1 @@
+There are 1000,000 node pairs and 778090 unique nodes in cit-Patents-small.txt.

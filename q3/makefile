@@ -1,0 +1,21 @@
+#Change this test db file to your own db file
+MYDB = connection.db 
+#MYDB = [YOUR MOVIE DB]
+
+#Change this source to your movie data source
+SRC = LBNL-sdp.dat
+#SRC = [YOUR MOVIE DATA SOURCE]
+
+all:
+	@echo "please use Matlab tensor toolbox to find components"
+	matlab -nojvm -nodesktop -nodisplay -r q33
+	matlab -nojvm -nodesktop -nodisplay -r q34
+	@echo "please implement the algorithm mentioned in the paper in sql for the same dataset"
+	@echo "please implement the algorithm mentioned in the paper in sql for LBNL dataset"
+
+clean:
+	\rm -f *.o
+
+remove:
+	\rm -f $(MYDB)
+
